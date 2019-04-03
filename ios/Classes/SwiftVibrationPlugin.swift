@@ -16,7 +16,7 @@ public class SwiftVibrationPlugin: NSObject, FlutterPlugin {
         case "hasVibrator":
             result(isDevice)
         case "vibrate":
-            AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)
+            AudioServicesPlaySystemSound(1520)
             result(nil)
         case "cancel":
             result(nil)
